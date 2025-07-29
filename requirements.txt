@@ -1,0 +1,25 @@
+# Point Cloud Bounding Box Generator Dependencies
+
+# Core dependencies for LAS/LAZ file processing
+laspy>=2.0.0
+
+# Geospatial file I/O
+fiona>=1.8.0
+
+# Progress bar for file processing
+tqdm>=4.60.0
+
+# Optional dependencies for enhanced functionality
+# Uncomment if needed:
+
+# For coordinate reference system transformations
+# pyproj>=3.0.0
+
+# For additional geospatial operations
+# geopandas>=0.10.0
+
+# For numpy array operations (usually installed with laspy)
+# numpy>=1.20.0
+
+# For GDAL/OGR support (alternative to fiona)
+# GDAL>=3.0.0
